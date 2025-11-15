@@ -448,9 +448,7 @@ USA, Atlanta          3/4 OK  0.001 / 0.751 / 3.005 s  25.0 %  74.125.21.101
 
 You can store a real screenshot in the repository and reference it like this:
 
-```markdown
 ![Ping check example](https://raw.githubusercontent.com/benyaminmansourian/checkhost-telegram-bot/main/screenshot/ping-google-com.jpg)
-```
 
 Where `screenshot/ping-google-com.jpg` is a sample image similar to:
 
