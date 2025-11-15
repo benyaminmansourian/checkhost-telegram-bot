@@ -8,7 +8,7 @@ Distributed uptime & latency monitoring using [check-host.net](https://check-hos
 
 - [What this bot does](#what-this-bot-does)
 - [Features](#features)
-- [How it works (at a glance)](#how-it-works-at-a-glance)
+- [How it works](#how-it-works)
 - [Prerequisites](#prerequisites)
   - [Python](#python)
   - [System packages](#system-packages)
@@ -79,7 +79,7 @@ Distributed uptime & latency monitoring using [check-host.net](https://check-hos
 
 ---
 
-## How it works (at a glance)
+## How it works
 
 1. The bot is started and a background thread launches `auto_monitor()`.
 2. On each interval:
@@ -448,13 +448,6 @@ USA, Atlanta          3/4 OK  0.001 / 0.751 / 3.005 s  25.0 %  74.125.21.101
 
 ![Ping check example](https://raw.githubusercontent.com/benyaminmansourian/checkhost-telegram-bot/main/screenshot/ping-google-com.jpg)
 
-Where `screenshot/ping-google-com.jpg` is a sample image similar to:
-
-- Dark theme table
-- One row per monitoring node
-- Green dots for healthy nodes
-- Red rows for nodes with packet loss or high RTT
-
 ---
 
 ## Telegram alert examples
@@ -531,8 +524,4 @@ This project uses the public HTTP API provided by **[check-host.net](https://che
 
 ## License
 
-You can license this project under MIT or any other license you prefer. For example, MIT:
-
-```text
 Released under the MIT License. See `LICENSE` for details.
-```
