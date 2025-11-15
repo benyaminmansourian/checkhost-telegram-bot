@@ -1,3 +1,29 @@
+# ==========================================================
+# Check-Host Telegram Monitor Bot
+# ==========================================================
+# Author: Benyamin Mansourian
+# GitHub: https://github.com/benyaminmansourian/checkhost-telegram-bot
+# License: MIT License
+# ==========================================================
+# Description:
+# A Telegram bot that uses check-host.net to run distributed
+# HTTP, Ping, and TCP checks from multiple global nodes and
+# sends the results to one or more Telegram chats.
+# ==========================================================
+# Features:
+# - Configurable monitoring targets (HTTP / Ping / TCP)
+# - Multi-chat support via ALLOWED_CHAT_IDS
+# - Periodic auto-monitoring with detailed HTML reports
+# - Per-node baseline modeling (RTT / HTTP time / TCP time / loss)
+# - Anomaly detection for spikes and packet loss
+# - Node metadata in alerts (node hostname + ip-info link)
+# - Table-style result images generated with Pillow
+# ==========================================================
+# Data source:
+# - All measurements are fetched via the public HTTP API
+#   of https://check-host.net
+# ==========================================================
+
 import requests
 import time
 import threading
@@ -1204,4 +1230,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
