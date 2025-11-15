@@ -25,8 +25,8 @@ ALLOWED_CHAT_IDS = [
 ]
 
 CONFIG = {
-    "interval": 300,   # auto-monitoring interval in seconds (e.g. 300 = 5 minutes)
-    "max_nodes": 30,   # max nodes to request from Check-Host
+    "interval": 600,   # auto-monitoring interval in seconds (e.g. 600 = 10 minutes)
+    "max_nodes": 50,   # max nodes to request from Check-Host
     "targets": [
         {"host": "https://yourdomain.com", "mode": "http"},
         {"host": "yourdomain.com", "mode": "ping"},
@@ -1204,3 +1204,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
