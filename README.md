@@ -524,4 +524,4 @@ This project uses the public HTTP API provided by **[check-host.net](https://che
 
 ## License
 
-Released under the MIT License. See `LICENSE` for details.
+Released under the **MIT License**. See `LICENSE` for details.
